@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Container -->
+<div class="flex justify-center items-center min-h-screen">
+    <!-- Loglin Card -->
+    <div class="shadow-xl shadow-red-200 p-5 rounded-xl">
+        <h1 class="text-4xl font-bold mb-5 text-center">Login</h1>
+        <input class="border p-3 rounded-lg mb-5 w-full outline-none" type="text" placeholder="Enter your email" >
+         <input class="border p-3 rounded-lg mb-5 w-full outline-none" type="password" placeholder="Enter your password" >
+          <button class="border p-3 rounded-lg w-full bg-red-500 text-white hover:bg-red-600 transition  ">Login</button>
+  
+          <div class="flex justify-between text-gray-700">
+            <span class="cursor-pointer">Forgot password</span>
+            <span class="cursor-pointer">Creat new account</span>
+          </div>
+  
+          <div class="border-b my-5 border-gray-600"></div>
+  
+          <div class="flex space-x-3">
+              <button class="flex justify-center items-center space-x-3 border p-3 rounded-lg w-full border-red-500 mb-2">
+                <img class="w-7 hover:scale-110 transition duration-500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqOAZphgekT0e06wtwTx9-B_ZeX_ymipCj8EKS2vOUYbx7NeTu93hJF4gnWyKpqdAVAuk&usqp=CAU" alt="">
+                <span>Google</span>
+              </button>
+  
+               <button class="flex justify-center items-center space-x-3 border p-3 rounded-lg w-full border-red-500 mb-2">
+                <img class="w-7 hover:scale-110 transition duration-500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt="">
+                <span>Facebook</span>
+              </button>
+          </div>
+    </div>
+  </div>
+</body>
+</html>
